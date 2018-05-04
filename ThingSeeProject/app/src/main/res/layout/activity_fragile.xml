@@ -13,8 +13,9 @@
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"
+        android:layout_weight="5"
         app:srcCompat="@drawable/frag"
+        android:layout_marginTop="50dp"
         tools:layout_editor_absoluteX="186dp"
         tools:layout_editor_absoluteY="16dp" />
 
@@ -29,7 +30,6 @@
             android:layout_height="50dp"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:layout_marginTop="20dp"
             android:text="Impact"
             android:theme="@style/ActivityCustom"
             app:layout_constraintEnd_toEndOf="parent"
@@ -102,7 +102,7 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:onClick="LocationButton"
             android:text="Location"
             android:textColor="@color/green"
